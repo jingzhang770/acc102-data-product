@@ -41,7 +41,11 @@ jupyter notebook "Analysis report on the financial health of listed companies.ip
 
 # When prompted, enter WRDS username and stock ticker (e.g., AAPL)
 
+## 6. Product Link / Demo
 
+- **Interactive Tool (Streamlit App)**: [Listed Company Financial Health Analysis Tool](https://acc102-data-appuct-hybvd7svi6dnfyxhvvnemb.streamlit.app)
+- **Demo Video**: (Paste your video link here, e.g., YouTube, Bilibili, or Baidu Netdisk)
+- **Source Code Repository**: [GitHub - jingzhang770/acc102-data-product](https://github.com/jingzhang770/acc102-data-product)
 
 
 
