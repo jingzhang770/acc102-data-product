@@ -77,15 +77,10 @@ jupyter notebook "Analysis report on the financial health of listed companies.ip
 - Allow users to upload their own CSV files
 
 ## 10. AI Disclosure
-
 This project used AI tools to support the development process:
-
-| Tool | Model/Version | Access Date | Purpose |
-|------|---------------|-------------|---------|
-| GitHub Copilot | Copilot (April 2025) | April 2026 | SQL query suggestions, pandas code completion, matplotlib configuration |
-| ChatGPT | GPT-4 | April 2026 | Financial ratio formula verification, Markdown structure optimization |
-
-**Declaration**: All analysis logic, financial ratio definitions, scoring model design, and final interpretations were my own work. AI tools were used only for coding assistance and documentation formatting.
+ACC102Tutor_DS_V3.2：import matplotlib and configure font settings；sql query suggestions；generate financial analysis charts and report
+Deepseek：markdown suggestions；code correction and improvement
+**Declaration**:AI tools were used only for coding assistance and documentation formatting.
 
 ## 11. References
 
@@ -97,9 +92,9 @@ This project used AI tools to support the development process:
 ## 12. Author
 
 - **Name**: Jing Zhang
-- **Course**: ACC102 - Artificial Intelligence-Driven Data Analytics
-- **Assignment**: Mini Assignment - Python Data Product
-- **Track**: Track 4 - Interactive Data Analysis Tool
+- **Course**: ACC102
+- **Assignment**: Mini Assignment 
+- **Track**: Track 4
 - **Date**: April 2026
 
 
