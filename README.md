@@ -45,6 +45,7 @@ jupyter notebook "Analysis report on the financial health of listed companies.ip
 
 ## 6. Product Link / Demo
 
+```bash
 - **Interactive Tool (Streamlit App)**: [One-Click Financial Health Analysis Tool](https://acc102-data-appuct-hybvd7svi6dnfyxhvvnemb.streamlit.app)
 - **Demo Video**: [Watch on Bilibili](https://b23.tv/vBroZfW)
 - **Source Code Repository**: [GitHub - jingzhang770/acc102-data-product](https://github.com/jingzhang770/acc102-data-product)
