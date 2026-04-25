@@ -42,14 +42,14 @@ pip install wrds pandas matplotlib openpyxl
 jupyter notebook "Analysis report on the financial health of listed companies.ipynb"
 
 # When prompted, enter WRDS username and stock ticker (e.g., AAPL)
-
+```
 ## 6. Product Link / Demo
 
 ```bash
 - **Interactive Tool (Streamlit App)**: [One-Click Financial Health Analysis Tool](https://acc102-data-appuct-hybvd7svi6dnfyxhvvnemb.streamlit.app)
 - **Demo Video**: [Watch on Bilibili](https://b23.tv/vBroZfW)
 - **Source Code Repository**: [GitHub - jingzhang770/acc102-data-product](https://github.com/jingzhang770/acc102-data-product)
-
+```
 ## 7. Key Insights from Microsoft (MSFT) Analysis
 
 - Microsoft's debt ratio decreased from 64% in 2019 to 48% in 2024, showing improved financial stability
