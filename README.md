@@ -78,8 +78,8 @@ jupyter notebook "Analysis report on the financial health of listed companies.ip
 
 ## 10. AI Disclosure
 This project used AI tools to support the development process:
--ACC102Tutor_DS_V3.2：import matplotlib and configure font settings；sql query suggestions；generate financial analysis charts and report
--Deepseek：markdown suggestions；code correction and improvement
+- ACC102Tutor_DS_V3.2：import matplotlib and configure font settings；sql query suggestions；generate financial analysis charts and report
+- Deepseek：markdown suggestions；code correction and improvement
 **Declaration**:AI tools were used only for coding assistance and documentation formatting.
 
 ## 11. References
