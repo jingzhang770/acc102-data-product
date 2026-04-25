@@ -1,4 +1,6 @@
+markdown
 # acc102-data-product
+
 # Listed Company Financial Health Analysis Tool
 
 ## 1. Problem & User
@@ -12,7 +14,7 @@ This tool helps retail investors and financial analysts quickly evaluate a compa
 - **Key Fields**: 
   - Financial data: total assets (at), total liabilities (lt), shareholders' equity (teq), revenue (sale), net income (ni)
   - Stock data: monthly closing price (prc), monthly return (ret)
- 
+
 ## 3. Methods
 
 - **Data Acquisition**: SQL queries to WRDS Compustat (financial statements) and CRSP (stock prices)
@@ -40,14 +42,77 @@ pip install wrds pandas matplotlib openpyxl
 jupyter notebook "Analysis report on the financial health of listed companies.ipynb"
 
 # When prompted, enter WRDS username and stock ticker (e.g., AAPL)
+6. Product Link / Demo
+Interactive Tool (Streamlit App): One-Click Financial Health Analysis Tool
 
-## 6. Product Link / Demo
+Demo Video: Watch on Bilibili
 
-- **Interactive Tool (Streamlit App)**: [Listed Company Financial Health Analysis Tool](https://acc102-data-appuct-hybvd7svi6dnfyxhvvnemb.streamlit.app)
-- **Demo Video**: (Paste your video link here, e.g., YouTube, Bilibili, or Baidu Netdisk)
-- **Source Code Repository**: [GitHub - jingzhang770/acc102-data-product](https://github.com/jingzhang770/acc102-data-product)
+Source Code Repository: GitHub - jingzhang770/acc102-data-product
 
+7. Key Insights from Microsoft (MSFT) Analysis
+Microsoft's debt ratio decreased from 64% in 2019 to 48% in 2024, showing improved financial stability
 
+ROE remained above 30% for all six years, far exceeding the 15% excellent threshold
+
+Net profit margin stayed consistently above 30%, reaching 36% in 2024
+
+Revenue grew from $126B (2019) to $245B (2024), net income from $39B to $88B
+
+Health score remained stable at 75/100 (Excellent rating) across all 6 years
+
+The company shows strong profitability, efficient asset utilization, and improving leverage
+
+8. Limitations
+Analysis covers only 6 years (2019-2024); longer trends require more data
+
+Scoring model weights are simplified and not statistically validated
+
+Industry differences are not considered (e.g., tech companies typically have higher debt)
+
+Cash flow indicators (operating cash flow, free cash flow) are not included
+
+WRDS database requires institutional access
+
+9. Future Improvements
+Add cash flow analysis (CFO, FCF)
+
+Compare results with industry averages
+
+Add predictive models (e.g., Altman Z-score)
+
+Support for non-US companies
+
+Add more years of historical data
+
+Allow users to upload their own CSV files
+
+10. AI Disclosure
+This project used AI tools to support the development process:
+
+Tool	Model/Version	Access Date	Purpose
+GitHub Copilot	Copilot (April 2025)	April 2026	SQL query suggestions, pandas code completion, matplotlib configuration
+ChatGPT	GPT-4	April 2026	Financial ratio formula verification, Markdown structure optimization
+Declaration: All analysis logic, financial ratio definitions, scoring model design, and final interpretations were my own work. AI tools were used only for coding assistance and documentation formatting.
+
+11. References
+WRDS Compustat Database
+
+CRSP Stock Database
+
+Streamlit Community Cloud
+
+Python Libraries: pandas, matplotlib, openpyxl
+
+12. Author
+Name: Jing Zhang
+
+Course: ACC102 - Artificial Intelligence-Driven Data Analytics
+
+Assignment: Mini Assignment - Python Data Product
+
+Track: Track 4 - Interactive Data Analysis Tool
+
+Date: April 2026
 
 
 
