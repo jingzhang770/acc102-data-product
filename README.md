@@ -39,7 +39,8 @@ This tool helps retail investors and financial analysts quickly evaluate a compa
 pip install wrds pandas matplotlib openpyxl
 
 # Run the Jupyter notebook
-jupyter notebook "Analysis report on the financial health of listed companies.ipynb"
+jupyter notebook
+"Analysis report on the financial health of listed companies.ipynb"
 
 # When prompted, enter WRDS username and stock ticker (e.g., AAPL)
 ```
